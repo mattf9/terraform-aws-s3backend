@@ -31,7 +31,7 @@ JSON
   }
 }
 
-resource "aws_kem_key" "kms_key" {
+resource "aws_kms_key" "kms_key" {
   tags = {
     ResourceGroup = local.namespace
   }
